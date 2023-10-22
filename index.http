@@ -1,0 +1,9 @@
+GET http://localhost:3000/seats
+
+###
+PUT http://localhost:3000/seats/booking
+Content-Type: application/json
+
+{
+    "bookingList": [10]
+}
